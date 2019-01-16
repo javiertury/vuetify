@@ -193,7 +193,6 @@
           />
           <v-date-picker
             v-model="model"
-            :landscape="landscape"
             no-title
             scrollable
           >
@@ -238,7 +237,6 @@
           />
           <v-date-picker
             v-model="model"
-            :landscape="landscape"
             scrollable
           >
             <v-spacer />
@@ -570,7 +568,6 @@
           />
           <v-date-picker
             v-model="monthModel"
-            :landscape="landscape"
             type="month"
             no-title
             scrollable
@@ -616,7 +613,6 @@
           />
           <v-date-picker
             v-model="monthModel"
-            :landscape="landscape"
             type="month"
             scrollable
           >
